@@ -549,6 +549,7 @@ title: Sehaj Vohra
   }
 
   /* ---------- Back to top ---------- */
+  .back-to-top-wrap { display: contents; }
   .back-to-top {
     position: fixed;
     right: 22px;
@@ -762,9 +763,11 @@ title: Sehaj Vohra
   <p>Sehaj Vohra · Computer Science &amp; Engineering</p>
 </footer>
 
+<div class="back-to-top-wrap">
 <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
   <svg><use href="#i-arrow-up"></use></svg>
 </button>
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
